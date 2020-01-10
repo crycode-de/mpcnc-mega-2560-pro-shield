@@ -11711,7 +11711,7 @@ Source: &lt;a href="http://www.bourns.com/pdfs/3314.pdf"&gt; Data sheet&lt;/a&gt
 <packages>
 </packages>
 <symbols>
-<symbol name="A4L-LOC">
+<symbol name="A4L-LOC-NO-NAMES">
 <wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
 <wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
 <wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
@@ -11719,7 +11719,6 @@ Source: &lt;a href="http://www.bourns.com/pdfs/3314.pdf"&gt; Data sheet&lt;/a&gt
 <wire x1="161.29" y1="3.81" x2="161.29" y2="24.13" width="0.1016" layer="94"/>
 <wire x1="161.29" y1="24.13" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
 <wire x1="215.265" y1="24.13" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="246.38" y1="3.81" x2="246.38" y2="8.89" width="0.1016" layer="94"/>
 <wire x1="246.38" y1="8.89" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
 <wire x1="246.38" y1="8.89" x2="215.265" y2="8.89" width="0.1016" layer="94"/>
 <wire x1="215.265" y1="8.89" x2="215.265" y2="3.81" width="0.1016" layer="94"/>
@@ -11728,19 +11727,15 @@ Source: &lt;a href="http://www.bourns.com/pdfs/3314.pdf"&gt; Data sheet&lt;/a&gt
 <wire x1="215.265" y1="13.97" x2="215.265" y2="19.05" width="0.1016" layer="94"/>
 <wire x1="215.265" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
 <wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
-<text x="217.17" y="15.24" size="2.54" layer="94">&gt;DRAWING_NAME</text>
-<text x="217.17" y="10.16" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
-<text x="230.505" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
-<text x="216.916" y="4.953" size="2.54" layer="94">Sheet:</text>
 <frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="A4L-LOC" prefix="FRAME" uservalue="yes">
+<deviceset name="A4L-LOC-NO-NAMES" prefix="FRAME" uservalue="yes">
 <description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
 DIN A4, landscape with location and doc. field</description>
 <gates>
-<gate name="G$1" symbol="A4L-LOC" x="0" y="0"/>
+<gate name="G$1" symbol="A4L-LOC-NO-NAMES" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -17491,6 +17486,14 @@ drill 1.0 mm</description>
 </library>
 </libraries>
 <attributes>
+<attribute name="BASED_ON" value="Parts based on MPCNC Nano Estlcam
+ Shield by Till Nenz"/>
+<attribute name="BY" value="Created and Copyright by
+ Peter Müller &lt;peter@crycode.de&gt;,
+ Günter Brauer &lt;gbzzr1100@gmail.de&gt;"/>
+<attribute name="DOC_NAME" value="MPCNC Mega 2560 Pro Shield"/>
+<attribute name="LICENSE" value="Creative Commons CC-BY-SA-NC 4.0 License"/>
+<attribute name="VERSION" value="v1.2"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -17502,8 +17505,8 @@ drill 1.0 mm</description>
 <part name="S.DRIVER-X1" library="stepper-driver" deviceset="STEPPER-DRIVER" device=""/>
 <part name="MS-X1" library="jumper" deviceset="JP3Q" device=""/>
 <part name="C1" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="100 µF"/>
-<part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
-<part name="FRAME2" library="frames" deviceset="A4L-LOC" device=""/>
+<part name="FRAME1" library="frames" deviceset="A4L-LOC-NO-NAMES" device=""/>
+<part name="FRAME2" library="frames" deviceset="A4L-LOC-NO-NAMES" device=""/>
 <part name="S.DRIVER-X2" library="stepper-driver" deviceset="STEPPER-DRIVER" device=""/>
 <part name="MS-X2" library="jumper" deviceset="JP3Q" device=""/>
 <part name="C2" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="100 µF"/>
@@ -17533,7 +17536,7 @@ drill 1.0 mm</description>
 <part name="STEPPER-Z.2" library="stepper-driver" deviceset="PINHEAD-4" device=""/>
 <part name="U1" library="TSR" deviceset="TSR2-*" device="" technology="24120"/>
 <part name="U2" library="TSR" deviceset="TSR2-*" device="" technology="2450"/>
-<part name="FRAME3" library="frames" deviceset="A4L-LOC" device=""/>
+<part name="FRAME3" library="frames" deviceset="A4L-LOC-NO-NAMES" device=""/>
 <part name="X1" library="con-phoenix-508" deviceset="MSTBV2" device=""/>
 <part name="IC1" library="mega2560-pro-mini" deviceset="MEGA2560-PRO" device=""/>
 <part name="D1" library="diode" deviceset="SCHOTTKY-DIODE" device="C4111-15" value="1N5822"/>
@@ -17541,7 +17544,7 @@ drill 1.0 mm</description>
 <part name="LED1" library="led" deviceset="LED" device="CHIPLED_1206"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R1206"/>
 <part name="C7" library="rcl" deviceset="CPOL-EU" device="E2-5" value="22 µF / 50 V Low ESR"/>
-<part name="FRAME5" library="frames" deviceset="A4L-LOC" device=""/>
+<part name="FRAME5" library="frames" deviceset="A4L-LOC-NO-NAMES" device=""/>
 <part name="IC2" library="uln-udn" deviceset="ULN2003A" device="D"/>
 <part name="IC3" library="uln-udn" deviceset="ULN2003A" device="D"/>
 <part name="JP6" library="jumper" deviceset="JP2E" device=""/>
@@ -17611,7 +17614,7 @@ drill 1.0 mm</description>
 <part name="IN14" library="con-molex" deviceset="22-?-03" device="27-2031" value="22-27-2031-03"/>
 <part name="IN15" library="con-molex" deviceset="22-?-03" device="27-2031" value="22-27-2031-03"/>
 <part name="IN16" library="con-molex" deviceset="22-?-03" device="27-2031" value="22-27-2031-03"/>
-<part name="FRAME7" library="frames" deviceset="A4L-LOC" device=""/>
+<part name="FRAME7" library="frames" deviceset="A4L-LOC-NO-NAMES" device=""/>
 <part name="IC6" library="optocoupler" deviceset="SFH6156" device=""/>
 <part name="R18" library="rcl" deviceset="R-EU_" device="R1206" value="220"/>
 <part name="IC7" library="optocoupler" deviceset="SFH6156" device=""/>
@@ -17647,7 +17650,7 @@ drill 1.0 mm</description>
 <part name="FAN" library="con-molex" deviceset="22-?-03" device="27-2031"/>
 <part name="X2" library="con-molex" deviceset="22-?-03" device="27-2031"/>
 <part name="X3" library="con-molex" deviceset="22-?-03" device="27-2031"/>
-<part name="FRAME8" library="frames" deviceset="A4L-LOC" device=""/>
+<part name="FRAME8" library="frames" deviceset="A4L-LOC-NO-NAMES" device=""/>
 <part name="R34" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
 <part name="LED13" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
 <part name="R35" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
@@ -17710,7 +17713,14 @@ drill 1.0 mm</description>
 <text x="137.16" y="106.68" size="1.778" layer="97">Analog In</text>
 <text x="7.62" y="170.18" size="1.778" layer="97">Mega 2560 Pro Board</text>
 <wire x1="134.62" y1="38.1" x2="4.318" y2="38.1" width="0.6096" layer="97" style="shortdash"/>
-<text x="7.62" y="33.02" size="1.778" layer="97">Solder pads for remaining pins</text>
+<text x="7.62" y="33.02" size="1.778" layer="97">Solder pads for currently unused pins</text>
+<text x="162.56" y="22.86" size="1.778" layer="94" align="top-left">&gt;LICENSE</text>
+<text x="215.9" y="22.86" size="1.778" layer="94" ratio="10" align="top-left">&gt;DOC_NAME</text>
+<text x="215.9" y="17.78" size="1.778" layer="94" ratio="10" align="top-left">&gt;VERSION</text>
+<text x="215.9" y="7.62" size="1.778" layer="94" ratio="10" align="top-left">Sheet:</text>
+<text x="254" y="7.62" size="1.778" layer="94" ratio="10" align="top-right">&gt;SHEET</text>
+<text x="162.56" y="19.05" size="1.778" layer="94" align="top-left">&gt;BY</text>
+<text x="162.56" y="10.16" size="1.778" layer="94" align="top-left">&gt;BASED_ON</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -18554,6 +18564,13 @@ drill 1.0 mm</description>
 <text x="7.62" y="99.06" size="1.778" layer="97">Stepper Driver Enable</text>
 <text x="91.44" y="99.06" size="1.778" layer="97">+5V / +12V / GND Connectors</text>
 <text x="180.34" y="99.06" size="1.778" layer="97">Fan Connector</text>
+<text x="162.56" y="22.86" size="1.778" layer="94" align="top-left">&gt;LICENSE</text>
+<text x="215.9" y="22.86" size="1.778" layer="94" ratio="10" align="top-left">&gt;DOC_NAME</text>
+<text x="215.9" y="17.78" size="1.778" layer="94" ratio="10" align="top-left">&gt;VERSION</text>
+<text x="215.9" y="7.62" size="1.778" layer="94" ratio="10" align="top-left">Sheet:</text>
+<text x="254" y="7.62" size="1.778" layer="94" ratio="10" align="top-right">&gt;SHEET</text>
+<text x="162.56" y="19.05" size="1.778" layer="94" align="top-left">&gt;BY</text>
+<text x="162.56" y="10.16" size="1.778" layer="94" align="top-left">&gt;BASED_ON</text>
 </plain>
 <instances>
 <instance part="U1" gate="U1" x="129.54" y="134.62"/>
@@ -18815,6 +18832,13 @@ drill 1.0 mm</description>
 <text x="134.62" y="170.18" size="1.778" layer="97">Stepper Driver Y</text>
 <text x="7.62" y="55.88" size="1.778" layer="97">Stepper Driver Z</text>
 <text x="134.62" y="55.88" size="1.778" layer="97">External Stepper Driver Connectors</text>
+<text x="162.56" y="22.86" size="1.778" layer="94" align="top-left">&gt;LICENSE</text>
+<text x="215.9" y="22.86" size="1.778" layer="94" ratio="10" align="top-left">&gt;DOC_NAME</text>
+<text x="215.9" y="17.78" size="1.778" layer="94" ratio="10" align="top-left">&gt;VERSION</text>
+<text x="215.9" y="7.62" size="1.778" layer="94" ratio="10" align="top-left">Sheet:</text>
+<text x="254" y="7.62" size="1.778" layer="94" ratio="10" align="top-right">&gt;SHEET</text>
+<text x="162.56" y="19.05" size="1.778" layer="94" align="top-left">&gt;BY</text>
+<text x="162.56" y="10.16" size="1.778" layer="94" align="top-left">&gt;BASED_ON</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -19701,7 +19725,7 @@ drill 1.0 mm</description>
 <sheet>
 <description>Digital Out</description>
 <plain>
-<text x="162.56" y="7.62" size="1.778" layer="97" align="top-left">* VFD = Variable Frequency Drive</text>
+<text x="114.3" y="7.62" size="1.778" layer="97" align="top-left">* VFD = Variable Frequency Drive</text>
 <wire x1="256.032" y1="119.38" x2="154.94" y2="119.38" width="0.6096" layer="97" style="shortdash"/>
 <wire x1="81.28" y1="132.08" x2="1.778" y2="132.08" width="0.6096" layer="97" style="shortdash"/>
 <wire x1="4.318" y1="66.04" x2="81.28" y2="66.04" width="0.6096" layer="97" style="shortdash"/>
@@ -19726,6 +19750,13 @@ drill 1.0 mm</description>
 <text x="157.48" y="114.3" size="1.778" layer="97">Output Connectors</text>
 <text x="157.48" y="170.18" size="1.778" layer="97">Output Status LEDs</text>
 <text x="7.62" y="170.18" size="1.778" layer="97">Output Drivers</text>
+<text x="162.56" y="22.86" size="1.778" layer="94" align="top-left">&gt;LICENSE</text>
+<text x="215.9" y="22.86" size="1.778" layer="94" ratio="10" align="top-left">&gt;DOC_NAME</text>
+<text x="215.9" y="17.78" size="1.778" layer="94" ratio="10" align="top-left">&gt;VERSION</text>
+<text x="215.9" y="7.62" size="1.778" layer="94" ratio="10" align="top-left">Sheet:</text>
+<text x="254" y="7.62" size="1.778" layer="94" ratio="10" align="top-right">&gt;SHEET</text>
+<text x="162.56" y="19.05" size="1.778" layer="94" align="top-left">&gt;BY</text>
+<text x="162.56" y="10.16" size="1.778" layer="94" align="top-left">&gt;BASED_ON</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
@@ -20430,12 +20461,16 @@ drill 1.0 mm</description>
 <sheet>
 <description>Digital In</description>
 <plain>
-<text x="162.56" y="22.86" size="1.778" layer="97" align="top-left">LEDs:
-
-RND 135-00183 (SMD, 0805, blau, 160 mcd)</text>
 <wire x1="165.1" y1="24.638" x2="165.1" y2="174.752" width="0.6096" layer="97" style="shortdash"/>
 <text x="7.62" y="170.18" size="1.778" layer="97">Digital Inputs (via Optocouplers)</text>
 <text x="170.18" y="170.18" size="1.778" layer="97">Digital Input Status LEDs</text>
+<text x="162.56" y="22.86" size="1.778" layer="94" align="top-left">&gt;LICENSE</text>
+<text x="215.9" y="22.86" size="1.778" layer="94" ratio="10" align="top-left">&gt;DOC_NAME</text>
+<text x="215.9" y="17.78" size="1.778" layer="94" ratio="10" align="top-left">&gt;VERSION</text>
+<text x="215.9" y="7.62" size="1.778" layer="94" ratio="10" align="top-left">Sheet:</text>
+<text x="254" y="7.62" size="1.778" layer="94" ratio="10" align="top-right">&gt;SHEET</text>
+<text x="162.56" y="19.05" size="1.778" layer="94" align="top-left">&gt;BY</text>
+<text x="162.56" y="10.16" size="1.778" layer="94" align="top-left">&gt;BASED_ON</text>
 </plain>
 <instances>
 <instance part="FRAME7" gate="G$1" x="0" y="0"/>
@@ -21381,6 +21416,13 @@ RND 135-00183 (SMD, 0805, blau, 160 mcd)</text>
 <description>Digital In Connectors</description>
 <plain>
 <text x="7.62" y="170.18" size="1.778" layer="97">Digital In Connectors</text>
+<text x="162.56" y="22.86" size="1.778" layer="94" align="top-left">&gt;LICENSE</text>
+<text x="215.9" y="22.86" size="1.778" layer="94" ratio="10" align="top-left">&gt;DOC_NAME</text>
+<text x="215.9" y="17.78" size="1.778" layer="94" ratio="10" align="top-left">&gt;VERSION</text>
+<text x="215.9" y="7.62" size="1.778" layer="94" ratio="10" align="top-left">Sheet:</text>
+<text x="254" y="7.62" size="1.778" layer="94" ratio="10" align="top-right">&gt;SHEET</text>
+<text x="162.56" y="19.05" size="1.778" layer="94" align="top-left">&gt;BY</text>
+<text x="162.56" y="10.16" size="1.778" layer="94" align="top-left">&gt;BASED_ON</text>
 </plain>
 <instances>
 <instance part="IN1" gate="-1" x="40.64" y="154.94"/>
@@ -21693,10 +21735,4 @@ RND 135-00183 (SMD, 0805, blau, 160 mcd)</text>
 </sheets>
 </schematic>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>

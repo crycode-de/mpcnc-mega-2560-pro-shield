@@ -255,7 +255,7 @@ IN</text>
 OUT</text>
 <text x="68.58" y="66.04" size="1.016" layer="25" font="vector" ratio="20" align="top-center">Analog IN</text>
 <wire x1="149.86" y1="71.12" x2="160" y2="71.12" width="0.3048" layer="21" style="shortdash"/>
-<text x="88.265" y="24.13" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="top-center">(CC) BY-NC-SA 4.0
+<text x="88.265" y="24.13" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="top-center">CC BY-NC-SA 4.0
 
 Peter Müller
 peter@crycode.de</text>
