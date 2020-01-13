@@ -2,7 +2,7 @@
 
 A CNC SHield for the [Mostly Printed CNC](https://www.v1engineering.com/specifications/) (MPCNC) by V1 Engineering intended to be used with Estlcam.
 
-![MPCNC Mega 2560 Pro Shield](./doc/MPCNC%20Mega%202560%20Pro%20Shield%203D.jpg)
+![MPCNC Mega 2560 Pro Shield](./doc/MPCNC-Mega-2560-Pro-Shield-3D.jpg)
 
 ## License
 
