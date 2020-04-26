@@ -17493,7 +17493,7 @@ drill 1.0 mm</description>
 <attribute name="BY_3" value=" Günter Brauer &lt;gbzzr1100@gmail.de&gt;"/>
 <attribute name="DOC_NAME" value="MPCNC Mega 2560 Pro Shield"/>
 <attribute name="LICENSE" value="Creative Commons CC-BY-SA-NC 4.0 License"/>
-<attribute name="VERSION" value="v1.2 Rev. 2"/>
+<attribute name="VERSION" value="v1.2 Rev. 3"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -17541,8 +17541,8 @@ drill 1.0 mm</description>
 <part name="IC1" library="mega2560-pro-mini" deviceset="MEGA2560-PRO" device=""/>
 <part name="D1" library="diode" deviceset="SCHOTTKY-DIODE" device="C4111-15" value="1N5822"/>
 <part name="D2" library="diode" deviceset="SCHOTTKY-DIODE" device="C4111-15" value="1N5822"/>
-<part name="LED1" library="led" deviceset="LED" device="CHIPLED_1206"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R1206"/>
+<part name="LED1" library="led" deviceset="LED" device="CHIPLED_1206" value="2mA, bl"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="22k"/>
 <part name="C7" library="rcl" deviceset="CPOL-EU" device="E2-5" value="22 µF / 50 V Low ESR"/>
 <part name="FRAME5" library="frames" deviceset="A4L-LOC-NO-NAMES" device=""/>
 <part name="IC2" library="uln-udn" deviceset="ULN2003A" device="D"/>
@@ -17570,28 +17570,28 @@ drill 1.0 mm</description>
 <part name="JP8" library="jumper" deviceset="JP1Q" device="" value="Analog"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R1206" value="1k"/>
 <part name="JP9" library="jumper" deviceset="JP1Q" device="" value="5V / 10V"/>
-<part name="LED2" library="led" deviceset="LED" device="CHIPLED_1206"/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="R1206"/>
-<part name="LED3" library="led" deviceset="LED" device="CHIPLED_1206"/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="R1206"/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
-<part name="LED4" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
-<part name="LED5" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
-<part name="R11" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
-<part name="LED6" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
-<part name="R12" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
-<part name="LED7" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
-<part name="R13" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
-<part name="LED8" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
-<part name="R14" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
-<part name="LED9" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
-<part name="R15" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
-<part name="LED10" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
-<part name="R16" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
-<part name="LED11" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
-<part name="R17" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
-<part name="LED12" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
+<part name="LED2" library="led" deviceset="LED" device="CHIPLED_1206" value="2mA, bl"/>
+<part name="R7" library="rcl" deviceset="R-EU_" device="R1206" value="4k7"/>
+<part name="LED3" library="led" deviceset="LED" device="CHIPLED_1206" value="2mA, bl"/>
+<part name="R8" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="LED4" library="led" deviceset="LED" device="CHIPLED_0805" value="2mA, bl"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="LED5" library="led" deviceset="LED" device="CHIPLED_0805" value="2mA, bl"/>
+<part name="R11" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="LED6" library="led" deviceset="LED" device="CHIPLED_0805" value="2mA, bl"/>
+<part name="R12" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="LED7" library="led" deviceset="LED" device="CHIPLED_0805" value="2mA, bl"/>
+<part name="R13" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="LED8" library="led" deviceset="LED" device="CHIPLED_0805" value="2mA, bl"/>
+<part name="R14" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="LED9" library="led" deviceset="LED" device="CHIPLED_0805" value="2mA, bl"/>
+<part name="R15" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="LED10" library="led" deviceset="LED" device="CHIPLED_0805" value="2mA, bl"/>
+<part name="R16" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="LED11" library="led" deviceset="LED" device="CHIPLED_0805" value="2mA, bl"/>
+<part name="R17" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="LED12" library="led" deviceset="LED" device="CHIPLED_0805" value="2mA, bl"/>
 <part name="AIN6" library="con-molex" deviceset="22-?-03" device="27-2031"/>
 <part name="AIN7" library="con-molex" deviceset="22-?-03" device="27-2031"/>
 <part name="AIN8" library="con-molex" deviceset="22-?-03" device="27-2031"/>
@@ -17651,38 +17651,38 @@ drill 1.0 mm</description>
 <part name="X2" library="con-molex" deviceset="22-?-03" device="27-2031"/>
 <part name="X3" library="con-molex" deviceset="22-?-03" device="27-2031"/>
 <part name="FRAME8" library="frames" deviceset="A4L-LOC-NO-NAMES" device=""/>
-<part name="R34" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
-<part name="LED13" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
-<part name="R35" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
-<part name="LED14" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
-<part name="R36" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
-<part name="LED15" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
-<part name="R37" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
-<part name="LED16" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
-<part name="R38" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
-<part name="LED17" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
-<part name="R39" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
-<part name="LED18" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
-<part name="R40" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
-<part name="LED19" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
-<part name="R41" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
-<part name="LED20" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
-<part name="R42" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
-<part name="LED21" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
-<part name="R43" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
-<part name="LED22" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
-<part name="R44" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
-<part name="LED23" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
-<part name="R45" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
-<part name="LED24" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
-<part name="R46" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
-<part name="LED25" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
-<part name="R47" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
-<part name="LED26" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
-<part name="R48" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
-<part name="LED27" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
-<part name="R49" library="rcl" deviceset="R-EU_" device="R1206" value="120"/>
-<part name="LED28" library="led" deviceset="LED" device="CHIPLED_0805" value="25 mA 3,2V bl"/>
+<part name="R34" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="LED13" library="led" deviceset="LED" device="CHIPLED_0805" value="2mA, bl"/>
+<part name="R35" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="LED14" library="led" deviceset="LED" device="CHIPLED_0805" value="2mA, bl"/>
+<part name="R36" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="LED15" library="led" deviceset="LED" device="CHIPLED_0805" value="2mA, bl"/>
+<part name="R37" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="LED16" library="led" deviceset="LED" device="CHIPLED_0805" value="2mA, bl"/>
+<part name="R38" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="LED17" library="led" deviceset="LED" device="CHIPLED_0805" value="2mA, bl"/>
+<part name="R39" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="LED18" library="led" deviceset="LED" device="CHIPLED_0805" value="2mA, bl"/>
+<part name="R40" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="LED19" library="led" deviceset="LED" device="CHIPLED_0805" value="2mA, bl"/>
+<part name="R41" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="LED20" library="led" deviceset="LED" device="CHIPLED_0805" value="2mA, bl"/>
+<part name="R42" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="LED21" library="led" deviceset="LED" device="CHIPLED_0805" value="2mA, bl"/>
+<part name="R43" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="LED22" library="led" deviceset="LED" device="CHIPLED_0805" value="2mA, bl"/>
+<part name="R44" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="LED23" library="led" deviceset="LED" device="CHIPLED_0805" value="2mA, bl"/>
+<part name="R45" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="LED24" library="led" deviceset="LED" device="CHIPLED_0805" value="2mA, bl"/>
+<part name="R46" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="LED25" library="led" deviceset="LED" device="CHIPLED_0805" value="2mA, bl"/>
+<part name="R47" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="LED26" library="led" deviceset="LED" device="CHIPLED_0805" value="2mA, bl"/>
+<part name="R48" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="LED27" library="led" deviceset="LED" device="CHIPLED_0805" value="2mA, bl"/>
+<part name="R49" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
+<part name="LED28" library="led" deviceset="LED" device="CHIPLED_0805" value="2mA, bl"/>
 <part name="SV1" library="con-harting-ml" deviceset="ML26" device=""/>
 <part name="SV2" library="con-harting-ml" deviceset="ML10" device=""/>
 <part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC817-25"/>

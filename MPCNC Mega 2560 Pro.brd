@@ -3806,11 +3806,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="13.97" y="86.741" size="1.27" layer="27" ratio="10"/>
 <attribute name="NAME" x="22.225" y="90.551" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="LED1" library="led" package="CHIPLED_1206" value="" x="30.48" y="85.09" smashed="yes" rot="R270">
+<element name="LED1" library="led" package="CHIPLED_1206" value="2mA, bl" x="30.48" y="85.09" smashed="yes" rot="R270">
 <attribute name="NAME" x="27.94" y="85.09" size="0.8128" layer="25" font="vector" align="center-right"/>
 <attribute name="VALUE" x="29.21" y="82.55" size="1.27" layer="27"/>
 </element>
-<element name="R1" library="rcl" package="R1206" value="" x="30.48" y="82.8675" smashed="yes">
+<element name="R1" library="rcl" package="R1206" value="22k" x="30.48" y="82.8675" smashed="yes">
 <attribute name="NAME" x="27.94" y="82.8675" size="0.8128" layer="25" font="vector" align="center-right"/>
 <attribute name="VALUE" x="29.21" y="80.3275" size="1.27" layer="27"/>
 </element>
@@ -3966,91 +3966,91 @@ design rules under a new name.</description>
 <attribute name="NAME" x="141.224" y="7.62" size="1.016" layer="25" font="vector" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="139.954" y="12.7" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="LED2" library="led" package="CHIPLED_1206" value="" x="55.245" y="68.58" smashed="yes" rot="R270">
+<element name="LED2" library="led" package="CHIPLED_1206" value="2mA, bl" x="55.245" y="68.58" smashed="yes" rot="R270">
 <attribute name="NAME" x="53.34" y="69.5325" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="53.975" y="66.04" size="1.27" layer="27"/>
 </element>
-<element name="R7" library="rcl" package="R1206" value="" x="55.245" y="66.04" smashed="yes">
+<element name="R7" library="rcl" package="R1206" value="4k7" x="55.245" y="66.04" smashed="yes">
 <attribute name="NAME" x="58.1025" y="66.04" size="0.8128" layer="25" font="vector" align="center-left"/>
 <attribute name="VALUE" x="53.975" y="63.5" size="1.27" layer="27"/>
 </element>
-<element name="LED3" library="led" package="CHIPLED_1206" value="" x="55.245" y="60.96" smashed="yes" rot="R270">
+<element name="LED3" library="led" package="CHIPLED_1206" value="2mA, bl" x="55.245" y="60.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="53.34" y="60.0075" size="0.8128" layer="25" font="vector" align="top-left"/>
 <attribute name="VALUE" x="53.975" y="58.42" size="1.27" layer="27"/>
 </element>
-<element name="R8" library="rcl" package="R1206" value="" x="55.245" y="63.5" smashed="yes">
+<element name="R8" library="rcl" package="R1206" value="1k2" x="55.245" y="63.5" smashed="yes">
 <attribute name="NAME" x="58.1025" y="63.5" size="0.8128" layer="25" font="vector" align="center-left"/>
 <attribute name="VALUE" x="53.975" y="60.96" size="1.27" layer="27"/>
 </element>
-<element name="R9" library="rcl" package="R1206" value="120" x="148.59" y="32.385" smashed="yes" rot="MR180">
+<element name="R9" library="rcl" package="R1206" value="1k2" x="148.59" y="32.385" smashed="yes" rot="MR180">
 <attribute name="NAME" x="147.32" y="31.115" size="0.8128" layer="26" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="147.32" y="34.925" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="LED4" library="led" package="CHIPLED_0805" value="25 mA 3,2V bl" x="154.305" y="35.56" smashed="yes">
+<element name="LED4" library="led" package="CHIPLED_0805" value="2mA, bl" x="154.305" y="35.56" smashed="yes">
 <attribute name="NAME" x="155.8925" y="33.9725" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="156.845" y="34.29" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R10" library="rcl" package="R1206" value="120" x="135.89" y="32.385" smashed="yes" rot="MR180">
+<element name="R10" library="rcl" package="R1206" value="1k2" x="135.89" y="32.385" smashed="yes" rot="MR180">
 <attribute name="NAME" x="134.62" y="31.115" size="0.8128" layer="26" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="134.62" y="34.925" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="LED5" library="led" package="CHIPLED_0805" value="25 mA 3,2V bl" x="141.605" y="35.56" smashed="yes">
+<element name="LED5" library="led" package="CHIPLED_0805" value="2mA, bl" x="141.605" y="35.56" smashed="yes">
 <attribute name="NAME" x="143.1925" y="33.9725" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="144.145" y="34.29" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R11" library="rcl" package="R1206" value="120" x="148.59" y="40.005" smashed="yes" rot="MR180">
+<element name="R11" library="rcl" package="R1206" value="1k2" x="148.59" y="40.005" smashed="yes" rot="MR180">
 <attribute name="NAME" x="147.32" y="38.735" size="0.8128" layer="26" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="147.32" y="42.545" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="LED6" library="led" package="CHIPLED_0805" value="25 mA 3,2V bl" x="154.305" y="43.18" smashed="yes">
+<element name="LED6" library="led" package="CHIPLED_0805" value="2mA, bl" x="154.305" y="43.18" smashed="yes">
 <attribute name="NAME" x="155.8925" y="41.5925" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="156.845" y="41.91" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R12" library="rcl" package="R1206" value="120" x="135.89" y="40.005" smashed="yes" rot="MR180">
+<element name="R12" library="rcl" package="R1206" value="1k2" x="135.89" y="40.005" smashed="yes" rot="MR180">
 <attribute name="NAME" x="134.62" y="38.735" size="0.8128" layer="26" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="134.62" y="42.545" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="LED7" library="led" package="CHIPLED_0805" value="25 mA 3,2V bl" x="141.605" y="43.18" smashed="yes">
+<element name="LED7" library="led" package="CHIPLED_0805" value="2mA, bl" x="141.605" y="43.18" smashed="yes">
 <attribute name="NAME" x="143.1925" y="41.5925" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="144.145" y="41.91" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R13" library="rcl" package="R1206" value="120" x="148.59" y="47.625" smashed="yes" rot="MR180">
+<element name="R13" library="rcl" package="R1206" value="1k2" x="148.59" y="47.625" smashed="yes" rot="MR180">
 <attribute name="NAME" x="147.32" y="46.355" size="0.8128" layer="26" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="147.32" y="50.165" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="LED8" library="led" package="CHIPLED_0805" value="25 mA 3,2V bl" x="154.305" y="50.8" smashed="yes">
+<element name="LED8" library="led" package="CHIPLED_0805" value="2mA, bl" x="154.305" y="50.8" smashed="yes">
 <attribute name="NAME" x="155.8925" y="49.2125" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="156.845" y="49.53" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R14" library="rcl" package="R1206" value="120" x="135.89" y="47.625" smashed="yes" rot="MR180">
+<element name="R14" library="rcl" package="R1206" value="1k2" x="135.89" y="47.625" smashed="yes" rot="MR180">
 <attribute name="NAME" x="134.62" y="46.355" size="0.8128" layer="26" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="134.62" y="50.165" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="LED9" library="led" package="CHIPLED_0805" value="25 mA 3,2V bl" x="141.605" y="50.8" smashed="yes">
+<element name="LED9" library="led" package="CHIPLED_0805" value="2mA, bl" x="141.605" y="50.8" smashed="yes">
 <attribute name="NAME" x="143.1925" y="49.2125" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="144.145" y="49.53" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R15" library="rcl" package="R1206" value="120" x="148.59" y="55.245" smashed="yes" rot="MR180">
+<element name="R15" library="rcl" package="R1206" value="1k2" x="148.59" y="55.245" smashed="yes" rot="MR180">
 <attribute name="NAME" x="147.32" y="53.975" size="0.8128" layer="26" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="147.32" y="57.785" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="LED10" library="led" package="CHIPLED_0805" value="25 mA 3,2V bl" x="154.305" y="58.42" smashed="yes">
+<element name="LED10" library="led" package="CHIPLED_0805" value="2mA, bl" x="154.305" y="58.42" smashed="yes">
 <attribute name="NAME" x="155.8925" y="56.8325" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="156.845" y="57.15" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R16" library="rcl" package="R1206" value="120" x="135.89" y="55.245" smashed="yes" rot="MR180">
+<element name="R16" library="rcl" package="R1206" value="1k2" x="135.89" y="55.245" smashed="yes" rot="MR180">
 <attribute name="NAME" x="134.62" y="53.975" size="0.8128" layer="26" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="134.62" y="57.785" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="LED11" library="led" package="CHIPLED_0805" value="25 mA 3,2V bl" x="141.605" y="58.42" smashed="yes">
+<element name="LED11" library="led" package="CHIPLED_0805" value="2mA, bl" x="141.605" y="58.42" smashed="yes">
 <attribute name="NAME" x="143.1925" y="56.8325" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="144.145" y="57.15" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R17" library="rcl" package="R1206" value="120" x="141.605" y="19.685" smashed="yes" rot="R90">
+<element name="R17" library="rcl" package="R1206" value="1k2" x="141.605" y="19.685" smashed="yes" rot="R90">
 <attribute name="NAME" x="142.875" y="19.685" size="0.8128" layer="25" font="vector" rot="R90" align="top-center"/>
 <attribute name="VALUE" x="144.145" y="18.415" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="LED12" library="led" package="CHIPLED_0805" value="25 mA 3,2V bl" x="141.605" y="24.765" smashed="yes">
+<element name="LED12" library="led" package="CHIPLED_0805" value="2mA, bl" x="141.605" y="24.765" smashed="yes">
 <attribute name="NAME" x="143.1925" y="23.1775" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="144.145" y="23.495" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -4446,131 +4446,131 @@ design rules under a new name.</description>
 <attribute name="NAME" x="148.6169" y="70.9026" size="1.016" layer="25" font="vector" ratio="15" align="bottom-right"/>
 <attribute name="VALUE" x="150.6489" y="62.8919" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R34" library="rcl" package="R1206" value="120" x="151.765" y="91.44" smashed="yes" rot="MR270">
+<element name="R34" library="rcl" package="R1206" value="1k2" x="151.765" y="91.44" smashed="yes" rot="MR270">
 <attribute name="NAME" x="150.495" y="92.71" size="0.8128" layer="26" font="vector" rot="MR270"/>
 <attribute name="VALUE" x="154.305" y="92.71" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="LED13" library="led" package="CHIPLED_0805" value="25 mA 3,2V bl" x="152.4" y="96.52" smashed="yes">
+<element name="LED13" library="led" package="CHIPLED_0805" value="2mA, bl" x="152.4" y="96.52" smashed="yes">
 <attribute name="NAME" x="153.9875" y="94.9325" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="154.94" y="95.25" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R35" library="rcl" package="R1206" value="120" x="144.145" y="91.44" smashed="yes" rot="MR270">
+<element name="R35" library="rcl" package="R1206" value="1k2" x="144.145" y="91.44" smashed="yes" rot="MR270">
 <attribute name="NAME" x="142.875" y="92.71" size="0.8128" layer="26" font="vector" rot="MR270"/>
 <attribute name="VALUE" x="146.685" y="92.71" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="LED14" library="led" package="CHIPLED_0805" value="25 mA 3,2V bl" x="147.32" y="96.52" smashed="yes">
+<element name="LED14" library="led" package="CHIPLED_0805" value="2mA, bl" x="147.32" y="96.52" smashed="yes">
 <attribute name="NAME" x="148.9075" y="94.9325" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="149.86" y="95.25" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R36" library="rcl" package="R1206" value="120" x="136.525" y="91.44" smashed="yes" rot="MR270">
+<element name="R36" library="rcl" package="R1206" value="1k2" x="136.525" y="91.44" smashed="yes" rot="MR270">
 <attribute name="NAME" x="135.255" y="92.71" size="0.8128" layer="26" font="vector" rot="MR270"/>
 <attribute name="VALUE" x="139.065" y="92.71" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="LED15" library="led" package="CHIPLED_0805" value="25 mA 3,2V bl" x="139.7" y="96.52" smashed="yes">
+<element name="LED15" library="led" package="CHIPLED_0805" value="2mA, bl" x="139.7" y="96.52" smashed="yes">
 <attribute name="NAME" x="138.7475" y="94.9325" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="142.24" y="95.25" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R37" library="rcl" package="R1206" value="120" x="128.905" y="91.44" smashed="yes" rot="MR270">
+<element name="R37" library="rcl" package="R1206" value="1k2" x="128.905" y="91.44" smashed="yes" rot="MR270">
 <attribute name="NAME" x="127.635" y="92.71" size="0.8128" layer="26" font="vector" rot="MR270"/>
 <attribute name="VALUE" x="131.445" y="92.71" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="LED16" library="led" package="CHIPLED_0805" value="25 mA 3,2V bl" x="132.08" y="96.52" smashed="yes">
+<element name="LED16" library="led" package="CHIPLED_0805" value="2mA, bl" x="132.08" y="96.52" smashed="yes">
 <attribute name="NAME" x="131.1275" y="94.9325" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="134.62" y="95.25" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R38" library="rcl" package="R1206" value="120" x="121.285" y="91.44" smashed="yes" rot="MR270">
+<element name="R38" library="rcl" package="R1206" value="1k2" x="121.285" y="91.44" smashed="yes" rot="MR270">
 <attribute name="NAME" x="120.015" y="92.71" size="0.8128" layer="26" font="vector" rot="MR270"/>
 <attribute name="VALUE" x="123.825" y="92.71" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="LED17" library="led" package="CHIPLED_0805" value="25 mA 3,2V bl" x="124.46" y="96.52" smashed="yes">
+<element name="LED17" library="led" package="CHIPLED_0805" value="2mA, bl" x="124.46" y="96.52" smashed="yes">
 <attribute name="NAME" x="123.5075" y="94.9325" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="127" y="95.25" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R39" library="rcl" package="R1206" value="120" x="113.665" y="91.44" smashed="yes" rot="MR270">
+<element name="R39" library="rcl" package="R1206" value="1k2" x="113.665" y="91.44" smashed="yes" rot="MR270">
 <attribute name="NAME" x="112.395" y="92.71" size="0.8128" layer="26" font="vector" rot="MR270"/>
 <attribute name="VALUE" x="116.205" y="92.71" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="LED18" library="led" package="CHIPLED_0805" value="25 mA 3,2V bl" x="116.84" y="96.52" smashed="yes">
+<element name="LED18" library="led" package="CHIPLED_0805" value="2mA, bl" x="116.84" y="96.52" smashed="yes">
 <attribute name="NAME" x="115.8875" y="94.9325" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="119.38" y="95.25" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R40" library="rcl" package="R1206" value="120" x="106.045" y="91.44" smashed="yes" rot="MR270">
+<element name="R40" library="rcl" package="R1206" value="1k2" x="106.045" y="91.44" smashed="yes" rot="MR270">
 <attribute name="NAME" x="104.775" y="92.71" size="0.8128" layer="26" font="vector" rot="MR270"/>
 <attribute name="VALUE" x="108.585" y="92.71" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="LED19" library="led" package="CHIPLED_0805" value="25 mA 3,2V bl" x="109.22" y="96.52" smashed="yes">
+<element name="LED19" library="led" package="CHIPLED_0805" value="2mA, bl" x="109.22" y="96.52" smashed="yes">
 <attribute name="NAME" x="108.2675" y="94.9325" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="111.76" y="95.25" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R41" library="rcl" package="R1206" value="120" x="98.425" y="91.44" smashed="yes" rot="MR270">
+<element name="R41" library="rcl" package="R1206" value="1k2" x="98.425" y="91.44" smashed="yes" rot="MR270">
 <attribute name="NAME" x="97.155" y="92.71" size="0.8128" layer="26" font="vector" rot="MR270"/>
 <attribute name="VALUE" x="100.965" y="92.71" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="LED20" library="led" package="CHIPLED_0805" value="25 mA 3,2V bl" x="101.6" y="96.52" smashed="yes">
+<element name="LED20" library="led" package="CHIPLED_0805" value="2mA, bl" x="101.6" y="96.52" smashed="yes">
 <attribute name="NAME" x="100.6475" y="94.9325" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="104.14" y="95.25" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R42" library="rcl" package="R1206" value="120" x="90.805" y="91.44" smashed="yes" rot="MR270">
+<element name="R42" library="rcl" package="R1206" value="1k2" x="90.805" y="91.44" smashed="yes" rot="MR270">
 <attribute name="NAME" x="89.535" y="92.71" size="0.8128" layer="26" font="vector" rot="MR270"/>
 <attribute name="VALUE" x="93.345" y="92.71" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="LED21" library="led" package="CHIPLED_0805" value="25 mA 3,2V bl" x="93.98" y="96.52" smashed="yes">
+<element name="LED21" library="led" package="CHIPLED_0805" value="2mA, bl" x="93.98" y="96.52" smashed="yes">
 <attribute name="NAME" x="93.0275" y="94.9325" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="96.52" y="95.25" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R43" library="rcl" package="R1206" value="120" x="83.185" y="91.44" smashed="yes" rot="MR270">
+<element name="R43" library="rcl" package="R1206" value="1k2" x="83.185" y="91.44" smashed="yes" rot="MR270">
 <attribute name="NAME" x="81.915" y="92.71" size="0.8128" layer="26" font="vector" rot="MR270"/>
 <attribute name="VALUE" x="85.725" y="92.71" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="LED22" library="led" package="CHIPLED_0805" value="25 mA 3,2V bl" x="86.36" y="96.52" smashed="yes">
+<element name="LED22" library="led" package="CHIPLED_0805" value="2mA, bl" x="86.36" y="96.52" smashed="yes">
 <attribute name="NAME" x="85.4075" y="94.9325" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="88.9" y="95.25" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R44" library="rcl" package="R1206" value="120" x="75.565" y="91.44" smashed="yes" rot="MR270">
+<element name="R44" library="rcl" package="R1206" value="1k2" x="75.565" y="91.44" smashed="yes" rot="MR270">
 <attribute name="NAME" x="74.295" y="92.71" size="0.8128" layer="26" font="vector" rot="MR270"/>
 <attribute name="VALUE" x="78.105" y="92.71" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="LED23" library="led" package="CHIPLED_0805" value="25 mA 3,2V bl" x="76.2" y="96.52" smashed="yes">
+<element name="LED23" library="led" package="CHIPLED_0805" value="2mA, bl" x="76.2" y="96.52" smashed="yes">
 <attribute name="NAME" x="77.7875" y="94.9325" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="78.74" y="95.25" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R45" library="rcl" package="R1206" value="120" x="67.945" y="91.44" smashed="yes" rot="MR270">
+<element name="R45" library="rcl" package="R1206" value="1k2" x="67.945" y="91.44" smashed="yes" rot="MR270">
 <attribute name="NAME" x="66.675" y="92.71" size="0.8128" layer="26" font="vector" rot="MR270"/>
 <attribute name="VALUE" x="70.485" y="92.71" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="LED24" library="led" package="CHIPLED_0805" value="25 mA 3,2V bl" x="71.12" y="96.52" smashed="yes">
+<element name="LED24" library="led" package="CHIPLED_0805" value="2mA, bl" x="71.12" y="96.52" smashed="yes">
 <attribute name="NAME" x="70.1675" y="94.9325" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="73.66" y="95.25" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R46" library="rcl" package="R1206" value="120" x="60.325" y="91.44" smashed="yes" rot="MR270">
+<element name="R46" library="rcl" package="R1206" value="1k2" x="60.325" y="91.44" smashed="yes" rot="MR270">
 <attribute name="NAME" x="59.055" y="92.71" size="0.8128" layer="26" font="vector" rot="MR270"/>
 <attribute name="VALUE" x="62.865" y="92.71" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="LED25" library="led" package="CHIPLED_0805" value="25 mA 3,2V bl" x="63.5" y="96.52" smashed="yes">
+<element name="LED25" library="led" package="CHIPLED_0805" value="2mA, bl" x="63.5" y="96.52" smashed="yes">
 <attribute name="NAME" x="62.5475" y="94.9325" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="66.04" y="95.25" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R47" library="rcl" package="R1206" value="120" x="52.705" y="91.44" smashed="yes" rot="MR270">
+<element name="R47" library="rcl" package="R1206" value="1k2" x="52.705" y="91.44" smashed="yes" rot="MR270">
 <attribute name="NAME" x="51.435" y="92.71" size="0.8128" layer="26" font="vector" rot="MR270"/>
 <attribute name="VALUE" x="55.245" y="92.71" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="LED26" library="led" package="CHIPLED_0805" value="25 mA 3,2V bl" x="55.88" y="96.52" smashed="yes">
+<element name="LED26" library="led" package="CHIPLED_0805" value="2mA, bl" x="55.88" y="96.52" smashed="yes">
 <attribute name="NAME" x="54.9275" y="94.9325" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="58.42" y="95.25" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R48" library="rcl" package="R1206" value="120" x="45.085" y="91.44" smashed="yes" rot="MR270">
+<element name="R48" library="rcl" package="R1206" value="1k2" x="45.085" y="91.44" smashed="yes" rot="MR270">
 <attribute name="NAME" x="43.815" y="92.71" size="0.8128" layer="26" font="vector" rot="MR270"/>
 <attribute name="VALUE" x="47.625" y="92.71" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="LED27" library="led" package="CHIPLED_0805" value="25 mA 3,2V bl" x="48.26" y="96.52" smashed="yes">
+<element name="LED27" library="led" package="CHIPLED_0805" value="2mA, bl" x="48.26" y="96.52" smashed="yes">
 <attribute name="NAME" x="47.3075" y="94.9325" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="50.8" y="95.25" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R49" library="rcl" package="R1206" value="120" x="37.465" y="91.44" smashed="yes" rot="MR270">
+<element name="R49" library="rcl" package="R1206" value="1k2" x="37.465" y="91.44" smashed="yes" rot="MR270">
 <attribute name="NAME" x="36.195" y="92.71" size="0.8128" layer="26" font="vector" rot="MR270"/>
 <attribute name="VALUE" x="40.005" y="92.71" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="LED28" library="led" package="CHIPLED_0805" value="25 mA 3,2V bl" x="40.64" y="96.52" smashed="yes">
+<element name="LED28" library="led" package="CHIPLED_0805" value="2mA, bl" x="40.64" y="96.52" smashed="yes">
 <attribute name="NAME" x="39.6875" y="94.9325" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="43.18" y="95.25" size="1.27" layer="27" rot="R90"/>
 </element>
