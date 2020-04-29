@@ -17568,7 +17568,7 @@ drill 1.0 mm</description>
 <part name="C8" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="100 µF"/>
 <part name="JP7" library="jumper" deviceset="JP1Q" device="" value="PWM"/>
 <part name="JP8" library="jumper" deviceset="JP1Q" device="" value="Analog"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R1206" value="1k"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
 <part name="JP9" library="jumper" deviceset="JP1Q" device="" value="5V / 10V"/>
 <part name="LED2" library="led" deviceset="LED" device="CHIPLED_1206" value="2mA, bl"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R1206" value="4k7"/>
