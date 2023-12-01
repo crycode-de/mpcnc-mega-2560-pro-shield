@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -17493,7 +17493,7 @@ drill 1.0 mm</description>
 <attribute name="BY_3" value=" Günter Brauer &lt;gbzzr1100@gmail.de&gt;"/>
 <attribute name="DOC_NAME" value="MPCNC Mega 2560 Pro Shield"/>
 <attribute name="LICENSE" value="Creative Commons CC-BY-SA-NC 4.0 License"/>
-<attribute name="VERSION" value="v1.2 Rev. 3"/>
+<attribute name="VERSION" value="v1.2 Rev. 4"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -19836,8 +19836,8 @@ drill 1.0 mm</description>
 <instance part="R2" gate="G$1" x="27.94" y="106.68" rot="R90"/>
 <instance part="J11" gate="-1" x="58.42" y="96.52"/>
 <instance part="J11" gate="-2" x="58.42" y="91.44"/>
-<instance part="IC5" gate="A" x="55.88" y="43.18" rot="R180"/>
-<instance part="IC5" gate="P" x="55.88" y="43.18"/>
+<instance part="IC5" gate="A" x="55.88" y="48.26" rot="R180"/>
+<instance part="IC5" gate="P" x="55.88" y="48.26"/>
 <instance part="J12" gate="-1" x="17.78" y="30.48" rot="MR0"/>
 <instance part="J12" gate="-2" x="17.78" y="25.4" rot="MR0"/>
 <instance part="R3" gate="G$1" x="43.18" y="15.24"/>
@@ -19885,8 +19885,8 @@ drill 1.0 mm</description>
 </segment>
 <segment>
 <pinref part="IC5" gate="P" pin="V+"/>
-<wire x1="55.88" y1="50.8" x2="55.88" y2="53.34" width="0.1524" layer="91"/>
-<label x="55.88" y="53.34" size="1.778" layer="95"/>
+<wire x1="55.88" y1="55.88" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
+<label x="55.88" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OUT_1" class="0">
@@ -20092,7 +20092,7 @@ drill 1.0 mm</description>
 </segment>
 <segment>
 <pinref part="IC5" gate="P" pin="V-"/>
-<wire x1="55.88" y1="35.56" x2="55.88" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="40.64" x2="55.88" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="15.24" x2="81.28" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="15.24" x2="83.82" y2="7.62" width="0.1524" layer="91"/>
@@ -20302,12 +20302,14 @@ drill 1.0 mm</description>
 </net>
 <net name="N$66" class="0">
 <segment>
-<pinref part="IC5" gate="A" pin="+IN"/>
 <pinref part="R4" gate="G$1" pin="S"/>
-<wire x1="63.5" y1="40.64" x2="63.5" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="JP9" gate="A" pin="2"/>
 <wire x1="63.5" y1="30.48" x2="63.5" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="30.48" x2="63.5" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="A" pin="-IN"/>
+<wire x1="63.5" y1="50.8" x2="66.04" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="50.8" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="30.48" x2="63.5" y2="30.48" width="0.1524" layer="91"/>
 <junction x="63.5" y="30.48"/>
 </segment>
 </net>
@@ -20324,8 +20326,8 @@ drill 1.0 mm</description>
 <wire x1="38.1" y1="15.24" x2="35.56" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="15.24" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="A" pin="OUT"/>
-<wire x1="35.56" y1="30.48" x2="35.56" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="43.18" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="30.48" x2="35.56" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="48.26" x2="48.26" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="J12" gate="-1" pin="S"/>
 <wire x1="20.32" y1="30.48" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
 <junction x="35.56" y="30.48"/>
@@ -20351,14 +20353,14 @@ drill 1.0 mm</description>
 <segment>
 <pinref part="C8" gate="G$1" pin="+"/>
 <wire x1="83.82" y1="43.18" x2="83.82" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="A" pin="-IN"/>
-<wire x1="83.82" y1="45.72" x2="63.5" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="45.72" x2="83.82" y2="45.72" width="0.1524" layer="91"/>
 <junction x="83.82" y="45.72"/>
 <wire x1="83.82" y1="45.72" x2="83.82" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="JP7" gate="A" pin="1"/>
 <wire x1="83.82" y1="55.88" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="A" pin="+IN"/>
+<wire x1="63.5" y1="45.72" x2="83.82" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPINDLE_SPEED_PWM" class="0">
